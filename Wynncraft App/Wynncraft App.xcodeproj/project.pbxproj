@@ -7,62 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		282D4D8126A4906100B82085 /* Wynncraft_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4D8026A4906100B82085 /* Wynncraft_AppApp.swift */; };
-		282D4D8326A4906100B82085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4D8226A4906100B82085 /* ContentView.swift */; };
-		282D4D8526A4906600B82085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282D4D8426A4906600B82085 /* Assets.xcassets */; };
-		282D4D8826A4906600B82085 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282D4D8726A4906600B82085 /* Preview Assets.xcassets */; };
-		282D4D9326A4906700B82085 /* Wynncraft_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4D9226A4906700B82085 /* Wynncraft_AppTests.swift */; };
-		282D4D9E26A4906700B82085 /* Wynncraft_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4D9D26A4906700B82085 /* Wynncraft_AppUITests.swift */; };
+		282D4DBA26A4943400B82085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4DB926A4943400B82085 /* AppDelegate.swift */; };
+		282D4DBC26A4943400B82085 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4DBB26A4943400B82085 /* SceneDelegate.swift */; };
+		282D4DBE26A4943400B82085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4DBD26A4943400B82085 /* ContentView.swift */; };
+		282D4DC026A4943800B82085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282D4DBF26A4943800B82085 /* Assets.xcassets */; };
+		282D4DC326A4943800B82085 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282D4DC226A4943800B82085 /* Preview Assets.xcassets */; };
+		282D4DC626A4943800B82085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282D4DC426A4943800B82085 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		282D4D8F26A4906700B82085 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 282D4D7526A4906000B82085 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 282D4D7C26A4906100B82085;
-			remoteInfo = "Wynncraft App";
-		};
-		282D4D9A26A4906700B82085 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 282D4D7526A4906000B82085 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 282D4D7C26A4906100B82085;
-			remoteInfo = "Wynncraft App";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		282D4D7D26A4906100B82085 /* Wynncraft App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wynncraft App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		282D4D8026A4906100B82085 /* Wynncraft_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wynncraft_AppApp.swift; sourceTree = "<group>"; };
-		282D4D8226A4906100B82085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		282D4D8426A4906600B82085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		282D4D8726A4906600B82085 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		282D4D8926A4906600B82085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		282D4D8E26A4906700B82085 /* Wynncraft AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wynncraft AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		282D4D9226A4906700B82085 /* Wynncraft_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wynncraft_AppTests.swift; sourceTree = "<group>"; };
-		282D4D9426A4906700B82085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		282D4D9926A4906700B82085 /* Wynncraft AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wynncraft AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		282D4D9D26A4906700B82085 /* Wynncraft_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wynncraft_AppUITests.swift; sourceTree = "<group>"; };
-		282D4D9F26A4906700B82085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282D4DB626A4943400B82085 /* Wynncraft App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wynncraft App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282D4DB926A4943400B82085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		282D4DBB26A4943400B82085 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		282D4DBD26A4943400B82085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		282D4DBF26A4943800B82085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		282D4DC226A4943800B82085 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		282D4DC526A4943800B82085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		282D4DC726A4943800B82085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		282D4D7A26A4906100B82085 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		282D4D8B26A4906700B82085 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		282D4D9626A4906700B82085 /* Frameworks */ = {
+		282D4DB326A4943400B82085 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,74 +37,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		282D4D7426A4906000B82085 = {
+		282D4DAD26A4943400B82085 = {
 			isa = PBXGroup;
 			children = (
-				282D4D7F26A4906100B82085 /* Wynncraft App */,
-				282D4D9126A4906700B82085 /* Wynncraft AppTests */,
-				282D4D9C26A4906700B82085 /* Wynncraft AppUITests */,
-				282D4D7E26A4906100B82085 /* Products */,
+				282D4DB826A4943400B82085 /* Wynncraft App */,
+				282D4DB726A4943400B82085 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		282D4D7E26A4906100B82085 /* Products */ = {
+		282D4DB726A4943400B82085 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				282D4D7D26A4906100B82085 /* Wynncraft App.app */,
-				282D4D8E26A4906700B82085 /* Wynncraft AppTests.xctest */,
-				282D4D9926A4906700B82085 /* Wynncraft AppUITests.xctest */,
+				282D4DB626A4943400B82085 /* Wynncraft App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		282D4D7F26A4906100B82085 /* Wynncraft App */ = {
+		282D4DB826A4943400B82085 /* Wynncraft App */ = {
 			isa = PBXGroup;
 			children = (
-				282D4D8026A4906100B82085 /* Wynncraft_AppApp.swift */,
-				282D4D8226A4906100B82085 /* ContentView.swift */,
-				282D4D8426A4906600B82085 /* Assets.xcassets */,
-				282D4D8926A4906600B82085 /* Info.plist */,
-				282D4D8626A4906600B82085 /* Preview Content */,
+				282D4DB926A4943400B82085 /* AppDelegate.swift */,
+				282D4DBB26A4943400B82085 /* SceneDelegate.swift */,
+				282D4DBD26A4943400B82085 /* ContentView.swift */,
+				282D4DBF26A4943800B82085 /* Assets.xcassets */,
+				282D4DC426A4943800B82085 /* LaunchScreen.storyboard */,
+				282D4DC726A4943800B82085 /* Info.plist */,
+				282D4DC126A4943800B82085 /* Preview Content */,
 			);
 			path = "Wynncraft App";
 			sourceTree = "<group>";
 		};
-		282D4D8626A4906600B82085 /* Preview Content */ = {
+		282D4DC126A4943800B82085 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				282D4D8726A4906600B82085 /* Preview Assets.xcassets */,
+				282D4DC226A4943800B82085 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		282D4D9126A4906700B82085 /* Wynncraft AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				282D4D9226A4906700B82085 /* Wynncraft_AppTests.swift */,
-				282D4D9426A4906700B82085 /* Info.plist */,
-			);
-			path = "Wynncraft AppTests";
-			sourceTree = "<group>";
-		};
-		282D4D9C26A4906700B82085 /* Wynncraft AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				282D4D9D26A4906700B82085 /* Wynncraft_AppUITests.swift */,
-				282D4D9F26A4906700B82085 /* Info.plist */,
-			);
-			path = "Wynncraft AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		282D4D7C26A4906100B82085 /* Wynncraft App */ = {
+		282D4DB526A4943400B82085 /* Wynncraft App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 282D4DA226A4906700B82085 /* Build configuration list for PBXNativeTarget "Wynncraft App" */;
+			buildConfigurationList = 282D4DCA26A4943800B82085 /* Build configuration list for PBXNativeTarget "Wynncraft App" */;
 			buildPhases = (
-				282D4D7926A4906100B82085 /* Sources */,
-				282D4D7A26A4906100B82085 /* Frameworks */,
-				282D4D7B26A4906100B82085 /* Resources */,
+				282D4DB226A4943400B82085 /* Sources */,
+				282D4DB326A4943400B82085 /* Frameworks */,
+				282D4DB426A4943400B82085 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,68 +92,24 @@
 			);
 			name = "Wynncraft App";
 			productName = "Wynncraft App";
-			productReference = 282D4D7D26A4906100B82085 /* Wynncraft App.app */;
+			productReference = 282D4DB626A4943400B82085 /* Wynncraft App.app */;
 			productType = "com.apple.product-type.application";
-		};
-		282D4D8D26A4906700B82085 /* Wynncraft AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 282D4DA526A4906700B82085 /* Build configuration list for PBXNativeTarget "Wynncraft AppTests" */;
-			buildPhases = (
-				282D4D8A26A4906700B82085 /* Sources */,
-				282D4D8B26A4906700B82085 /* Frameworks */,
-				282D4D8C26A4906700B82085 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				282D4D9026A4906700B82085 /* PBXTargetDependency */,
-			);
-			name = "Wynncraft AppTests";
-			productName = "Wynncraft AppTests";
-			productReference = 282D4D8E26A4906700B82085 /* Wynncraft AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		282D4D9826A4906700B82085 /* Wynncraft AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 282D4DA826A4906700B82085 /* Build configuration list for PBXNativeTarget "Wynncraft AppUITests" */;
-			buildPhases = (
-				282D4D9526A4906700B82085 /* Sources */,
-				282D4D9626A4906700B82085 /* Frameworks */,
-				282D4D9726A4906700B82085 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				282D4D9B26A4906700B82085 /* PBXTargetDependency */,
-			);
-			name = "Wynncraft AppUITests";
-			productName = "Wynncraft AppUITests";
-			productReference = 282D4D9926A4906700B82085 /* Wynncraft AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		282D4D7526A4906000B82085 /* Project object */ = {
+		282D4DAE26A4943400B82085 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					282D4D7C26A4906100B82085 = {
+					282D4DB526A4943400B82085 = {
 						CreatedOnToolsVersion = 12.5;
-					};
-					282D4D8D26A4906700B82085 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 282D4D7C26A4906100B82085;
-					};
-					282D4D9826A4906700B82085 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 282D4D7C26A4906100B82085;
 					};
 				};
 			};
-			buildConfigurationList = 282D4D7826A4906000B82085 /* Build configuration list for PBXProject "Wynncraft App" */;
+			buildConfigurationList = 282D4DB126A4943400B82085 /* Build configuration list for PBXProject "Wynncraft App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,87 +117,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 282D4D7426A4906000B82085;
-			productRefGroup = 282D4D7E26A4906100B82085 /* Products */;
+			mainGroup = 282D4DAD26A4943400B82085;
+			productRefGroup = 282D4DB726A4943400B82085 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				282D4D7C26A4906100B82085 /* Wynncraft App */,
-				282D4D8D26A4906700B82085 /* Wynncraft AppTests */,
-				282D4D9826A4906700B82085 /* Wynncraft AppUITests */,
+				282D4DB526A4943400B82085 /* Wynncraft App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		282D4D7B26A4906100B82085 /* Resources */ = {
+		282D4DB426A4943400B82085 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282D4D8826A4906600B82085 /* Preview Assets.xcassets in Resources */,
-				282D4D8526A4906600B82085 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		282D4D8C26A4906700B82085 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		282D4D9726A4906700B82085 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				282D4DC626A4943800B82085 /* LaunchScreen.storyboard in Resources */,
+				282D4DC326A4943800B82085 /* Preview Assets.xcassets in Resources */,
+				282D4DC026A4943800B82085 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		282D4D7926A4906100B82085 /* Sources */ = {
+		282D4DB226A4943400B82085 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282D4D8326A4906100B82085 /* ContentView.swift in Sources */,
-				282D4D8126A4906100B82085 /* Wynncraft_AppApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		282D4D8A26A4906700B82085 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				282D4D9326A4906700B82085 /* Wynncraft_AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		282D4D9526A4906700B82085 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				282D4D9E26A4906700B82085 /* Wynncraft_AppUITests.swift in Sources */,
+				282D4DBA26A4943400B82085 /* AppDelegate.swift in Sources */,
+				282D4DBC26A4943400B82085 /* SceneDelegate.swift in Sources */,
+				282D4DBE26A4943400B82085 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		282D4D9026A4906700B82085 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 282D4D7C26A4906100B82085 /* Wynncraft App */;
-			targetProxy = 282D4D8F26A4906700B82085 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		282D4DC426A4943800B82085 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282D4DC526A4943800B82085 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
 		};
-		282D4D9B26A4906700B82085 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 282D4D7C26A4906100B82085 /* Wynncraft App */;
-			targetProxy = 282D4D9A26A4906700B82085 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		282D4DA026A4906700B82085 /* Debug */ = {
+		282D4DC826A4943800B82085 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		282D4DA126A4906700B82085 /* Release */ = {
+		282D4DC926A4943800B82085 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,7 +281,7 @@
 			};
 			name = Release;
 		};
-		282D4DA326A4906700B82085 /* Debug */ = {
+		282D4DCB26A4943800B82085 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -422,7 +291,6 @@
 				DEVELOPMENT_TEAM = GX84FWV2EB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Wynncraft App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -434,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		282D4DA426A4906700B82085 /* Release */ = {
+		282D4DCC26A4943800B82085 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +312,6 @@
 				DEVELOPMENT_TEAM = GX84FWV2EB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Wynncraft App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,133 +320,31 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		282D4DA626A4906700B82085 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GX84FWV2EB;
-				INFOPLIST_FILE = "Wynncraft AppTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaded.Wynncraft-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wynncraft App.app/Wynncraft App";
-			};
-			name = Debug;
-		};
-		282D4DA726A4906700B82085 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GX84FWV2EB;
-				INFOPLIST_FILE = "Wynncraft AppTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaded.Wynncraft-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wynncraft App.app/Wynncraft App";
-			};
-			name = Release;
-		};
-		282D4DA926A4906700B82085 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GX84FWV2EB;
-				INFOPLIST_FILE = "Wynncraft AppUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaded.Wynncraft-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Wynncraft App";
-			};
-			name = Debug;
-		};
-		282D4DAA26A4906700B82085 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GX84FWV2EB;
-				INFOPLIST_FILE = "Wynncraft AppUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaded.Wynncraft-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Wynncraft App";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		282D4D7826A4906000B82085 /* Build configuration list for PBXProject "Wynncraft App" */ = {
+		282D4DB126A4943400B82085 /* Build configuration list for PBXProject "Wynncraft App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				282D4DA026A4906700B82085 /* Debug */,
-				282D4DA126A4906700B82085 /* Release */,
+				282D4DC826A4943800B82085 /* Debug */,
+				282D4DC926A4943800B82085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		282D4DA226A4906700B82085 /* Build configuration list for PBXNativeTarget "Wynncraft App" */ = {
+		282D4DCA26A4943800B82085 /* Build configuration list for PBXNativeTarget "Wynncraft App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				282D4DA326A4906700B82085 /* Debug */,
-				282D4DA426A4906700B82085 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		282D4DA526A4906700B82085 /* Build configuration list for PBXNativeTarget "Wynncraft AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				282D4DA626A4906700B82085 /* Debug */,
-				282D4DA726A4906700B82085 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		282D4DA826A4906700B82085 /* Build configuration list for PBXNativeTarget "Wynncraft AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				282D4DA926A4906700B82085 /* Debug */,
-				282D4DAA26A4906700B82085 /* Release */,
+				282D4DCB26A4943800B82085 /* Debug */,
+				282D4DCC26A4943800B82085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 282D4D7526A4906000B82085 /* Project object */;
+	rootObject = 282D4DAE26A4943400B82085 /* Project object */;
 }
