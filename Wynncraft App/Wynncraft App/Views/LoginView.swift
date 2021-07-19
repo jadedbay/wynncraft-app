@@ -10,10 +10,46 @@ import SwiftUI
 let userdefaults = UserDefaults()
 
 struct LoginView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
+    init() {
+        if userdefaults.string(forKey: "playerUUID") != nil {
+            presentationMode.wrappedValue.dismiss()
+        }
+    }
+    
     var body: some View {
         
-        
-        Text("Login")
+        ZStack {
+            Image("loginBackground")
+                .resizable()
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            VStack {
+                Spacer()
+                    .frame(height: 40)
+                Image("WynncraftLogo")
+                    .resizable()
+                    .scaledToFit()
+                Spacer()
+                    .frame(height: 30)
+                ZStack {
+                    VStack {
+                        Spacer()
+                            .frame(height: 150)
+                        Button(action: {
+                            
+                        }, label: {
+                            LoginButton()
+                        })
+                    }
+                    LoginUsername()
+                }
+                Spacer()
+                Text("Created By _jaded")
+                    .font(.custom("TitilliumWeb-Light", size: 16))
+                
+            }
+        }.ignoresSafeArea(.keyboard)
     }
 }
 

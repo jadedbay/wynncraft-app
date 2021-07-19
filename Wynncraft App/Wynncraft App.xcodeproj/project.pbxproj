@@ -20,6 +20,10 @@
 		282D4DD926A4AF5600B82085 /* GuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4DD826A4AF5600B82085 /* GuildView.swift */; };
 		282D4DDB26A4AF6500B82085 /* BuildsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4DDA26A4AF6500B82085 /* BuildsView.swift */; };
 		282D4DDE26A4B8EB00B82085 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4DDD26A4B8EB00B82085 /* Background.swift */; };
+		287250C726A50732007BBE56 /* LoginArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250C626A50732007BBE56 /* LoginArea.swift */; };
+		287250CB26A5136B007BBE56 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 287250CA26A5136B007BBE56 /* TitilliumWeb-Light.ttf */; };
+		287250CD26A52990007BBE56 /* LoginUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250CC26A52990007BBE56 /* LoginUsername.swift */; };
+		287250CF26A5299C007BBE56 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250CE26A5299C007BBE56 /* LoginButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		282D4DD826A4AF5600B82085 /* GuildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildView.swift; sourceTree = "<group>"; };
 		282D4DDA26A4AF6500B82085 /* BuildsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildsView.swift; sourceTree = "<group>"; };
 		282D4DDD26A4B8EB00B82085 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		287250C626A50732007BBE56 /* LoginArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginArea.swift; sourceTree = "<group>"; };
+		287250CA26A5136B007BBE56 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Light.ttf"; path = "../../../../../../../Downloads/Titillium_Web/TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		287250CC26A52990007BBE56 /* LoginUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUsername.swift; sourceTree = "<group>"; };
+		287250CE26A5299C007BBE56 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 		282D4DB826A4943400B82085 /* Wynncraft App */ = {
 			isa = PBXGroup;
 			children = (
+				287250C826A5131E007BBE56 /* fonts */,
 				282D4DDC26A4B8D300B82085 /* ScreenElements */,
 				282D4DCD26A4ACD400B82085 /* Views */,
 				282D4DB926A4943400B82085 /* AppDelegate.swift */,
@@ -108,8 +117,19 @@
 			isa = PBXGroup;
 			children = (
 				282D4DDD26A4B8EB00B82085 /* Background.swift */,
+				287250C626A50732007BBE56 /* LoginArea.swift */,
+				287250CC26A52990007BBE56 /* LoginUsername.swift */,
+				287250CE26A5299C007BBE56 /* LoginButton.swift */,
 			);
 			path = ScreenElements;
+			sourceTree = "<group>";
+		};
+		287250C826A5131E007BBE56 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				287250CA26A5136B007BBE56 /* TitilliumWeb-Light.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +191,7 @@
 			files = (
 				282D4DC626A4943800B82085 /* LaunchScreen.storyboard in Resources */,
 				282D4DC326A4943800B82085 /* Preview Assets.xcassets in Resources */,
+				287250CB26A5136B007BBE56 /* TitilliumWeb-Light.ttf in Resources */,
 				282D4DC026A4943800B82085 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +212,10 @@
 				282D4DD526A4AED300B82085 /* LeaderboardsView.swift in Sources */,
 				282D4DCF26A4AD1E00B82085 /* LoginView.swift in Sources */,
 				282D4DDB26A4AF6500B82085 /* BuildsView.swift in Sources */,
+				287250C726A50732007BBE56 /* LoginArea.swift in Sources */,
 				282D4DDE26A4B8EB00B82085 /* Background.swift in Sources */,
+				287250CD26A52990007BBE56 /* LoginUsername.swift in Sources */,
+				287250CF26A5299C007BBE56 /* LoginButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
