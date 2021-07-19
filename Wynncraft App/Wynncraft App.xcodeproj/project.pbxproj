@@ -22,8 +22,9 @@
 		282D4DDE26A4B8EB00B82085 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D4DDD26A4B8EB00B82085 /* Background.swift */; };
 		287250C726A50732007BBE56 /* LoginArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250C626A50732007BBE56 /* LoginArea.swift */; };
 		287250CB26A5136B007BBE56 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 287250CA26A5136B007BBE56 /* TitilliumWeb-Light.ttf */; };
-		287250CD26A52990007BBE56 /* LoginUsername.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250CC26A52990007BBE56 /* LoginUsername.swift */; };
 		287250CF26A5299C007BBE56 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250CE26A5299C007BBE56 /* LoginButton.swift */; };
+		287250D726A5C26B007BBE56 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250D626A5C26B007BBE56 /* Webservice.swift */; };
+		287250DB26A5FA89007BBE56 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250DA26A5FA89007BBE56 /* ControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +45,9 @@
 		282D4DDD26A4B8EB00B82085 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		287250C626A50732007BBE56 /* LoginArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginArea.swift; sourceTree = "<group>"; };
 		287250CA26A5136B007BBE56 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Light.ttf"; path = "../../../../../../../Downloads/Titillium_Web/TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
-		287250CC26A52990007BBE56 /* LoginUsername.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUsername.swift; sourceTree = "<group>"; };
 		287250CE26A5299C007BBE56 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		287250D626A5C26B007BBE56 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		287250DA26A5FA89007BBE56 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,8 @@
 				282D4DC426A4943800B82085 /* LaunchScreen.storyboard */,
 				282D4DC726A4943800B82085 /* Info.plist */,
 				282D4DC126A4943800B82085 /* Preview Content */,
+				287250D626A5C26B007BBE56 /* Webservice.swift */,
+				287250DA26A5FA89007BBE56 /* ControlView.swift */,
 			);
 			path = "Wynncraft App";
 			sourceTree = "<group>";
@@ -118,7 +122,6 @@
 			children = (
 				282D4DDD26A4B8EB00B82085 /* Background.swift */,
 				287250C626A50732007BBE56 /* LoginArea.swift */,
-				287250CC26A52990007BBE56 /* LoginUsername.swift */,
 				287250CE26A5299C007BBE56 /* LoginButton.swift */,
 			);
 			path = ScreenElements;
@@ -211,10 +214,11 @@
 				282D4DBC26A4943400B82085 /* SceneDelegate.swift in Sources */,
 				282D4DD526A4AED300B82085 /* LeaderboardsView.swift in Sources */,
 				282D4DCF26A4AD1E00B82085 /* LoginView.swift in Sources */,
+				287250D726A5C26B007BBE56 /* Webservice.swift in Sources */,
 				282D4DDB26A4AF6500B82085 /* BuildsView.swift in Sources */,
 				287250C726A50732007BBE56 /* LoginArea.swift in Sources */,
 				282D4DDE26A4B8EB00B82085 /* Background.swift in Sources */,
-				287250CD26A52990007BBE56 /* LoginUsername.swift in Sources */,
+				287250DB26A5FA89007BBE56 /* ControlView.swift in Sources */,
 				287250CF26A5299C007BBE56 /* LoginButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
