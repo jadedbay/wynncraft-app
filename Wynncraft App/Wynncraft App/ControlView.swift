@@ -9,6 +9,10 @@ import SwiftUI
 
 struct ControlView: View {
     
+    init() {
+        userdefaults.removeObject(forKey: "playerUUID")
+    }
+    
     var body: some View {
         if userdefaults.string(forKey: "playerUUID") == nil {
             LoginView()

@@ -15,6 +15,8 @@ struct LoginView: View {
     @ObservedObject var webservice = Webservice()
     
     @State private var name: String = ""
+    @State private var nameError: Double = 0.0
+    @State private var isLoading = false
     
     @State var loggedIn = false
     
@@ -24,6 +26,7 @@ struct LoginView: View {
             if loggedIn {
                 ContentView()
             } else {
+                
                 ZStack {
                     Image("loginBackground")
                         .resizable()
@@ -41,12 +44,17 @@ struct LoginView: View {
                                 Spacer()
                                     .frame(height: 150)
                                 Button(action: {
+                                    if name != "" {
+                                        isLoading = true
+                                    }
                                     webservice.getUUID(username: name) { (items) in
                                         if items.code == 200 {
                                             userdefaults.set(items.data[0].uuid, forKey: "playerUUID")
+                                            isLoading = false
                                             self.loggedIn = true
                                         } else {
-                                            print("invalid user")
+                                            isLoading = false
+                                            nameError = 1.0
                                         }
                                         
                                     }
@@ -61,6 +69,15 @@ struct LoginView: View {
                                         TextField("Minecraft Username", text: $name)
                                             .font(.custom("TitilliumWeb-Light", size: 18))
                                             .frame(width: 190)
+                                        
+                                        if isLoading {
+                                            HStack {
+                                                Spacer()
+                                                    .frame(width: 160)
+                                                ProgressView()
+                                                    .progressViewStyle(CircularProgressViewStyle(tint: .white))
+                                            }
+                                        }
                                     }
                                     Spacer()
                                         .frame(height: 0)
@@ -72,6 +89,14 @@ struct LoginView: View {
                                         Image("rope_right")
                                     }
                                 }
+                            }
+                            VStack {
+                                Text("Minecraft user either doesn't exist or has never logged into Wynncraft")
+                                    .font(.custom("TitilliumWeb-Light", size: 14))
+                                    .foregroundColor(Color(red: 255.0/255.0, green: 0.0/255.0, blue: 0.0/255.0))
+                                    .opacity(nameError)
+                                Spacer()
+                                    .frame(height: 175)
                             }
                         }
                         Spacer()
