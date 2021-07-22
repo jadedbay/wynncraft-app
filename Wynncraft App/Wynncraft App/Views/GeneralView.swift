@@ -12,6 +12,7 @@ struct GeneralView: View {
     var body: some View {
         ZStack {
             Background()
+            Text("General")
         }
     }
 }

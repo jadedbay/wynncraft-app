@@ -11,6 +11,7 @@ struct BuildsView: View {
     var body: some View {
         ZStack {
             Background()
+            Text("Builds")
         }
     }
 }
