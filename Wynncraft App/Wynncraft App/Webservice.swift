@@ -23,6 +23,7 @@ class Webservice: ObservableObject {
 }
 
 
+
 struct UUIDStructure: Decodable {
     let code: Int
     let data: [UUID]

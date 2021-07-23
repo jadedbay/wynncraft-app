@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct GuildView: View {
+    
     var body: some View {
         ZStack {
             Background()
-            Text("Guild")
         }
     }
 }

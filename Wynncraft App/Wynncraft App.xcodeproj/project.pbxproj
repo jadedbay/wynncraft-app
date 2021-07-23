@@ -25,6 +25,7 @@
 		287250CF26A5299C007BBE56 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250CE26A5299C007BBE56 /* LoginButton.swift */; };
 		287250D726A5C26B007BBE56 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250D626A5C26B007BBE56 /* Webservice.swift */; };
 		287250DB26A5FA89007BBE56 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250DA26A5FA89007BBE56 /* ControlView.swift */; };
+		287250E326AA4173007BBE56 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250E226AA4173007BBE56 /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		287250CE26A5299C007BBE56 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		287250D626A5C26B007BBE56 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		287250DA26A5FA89007BBE56 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		287250E226AA4173007BBE56 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				282D4DC126A4943800B82085 /* Preview Content */,
 				287250D626A5C26B007BBE56 /* Webservice.swift */,
 				287250DA26A5FA89007BBE56 /* ControlView.swift */,
+				287250E226AA4173007BBE56 /* ImageLoader.swift */,
 			);
 			path = "Wynncraft App";
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				282D4DBA26A4943400B82085 /* AppDelegate.swift in Sources */,
 				282D4DD326A4AE2A00B82085 /* ContentView.swift in Sources */,
+				287250E326AA4173007BBE56 /* ImageLoader.swift in Sources */,
 				282D4DD926A4AF5600B82085 /* GuildView.swift in Sources */,
 				282D4DD726A4AF3F00B82085 /* PlayerView.swift in Sources */,
 				282D4DD126A4AD9300B82085 /* GeneralView.swift in Sources */,
