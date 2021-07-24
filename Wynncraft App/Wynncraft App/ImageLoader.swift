@@ -48,7 +48,7 @@ class ImageLoader {
 }
 
 class ImageProvider: ObservableObject {
-    @Published var image = UIImage(named: "guildIcon")!
+    @Published var image = UIImage(named: "steve")!
     private var cancellable: AnyCancellable?
     private let imageLoader = ImageLoader()
 

@@ -37,6 +37,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         UITabBar.appearance().backgroundColor = tabBackground
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: selectedColor], for:.selected)
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font:UIFont(name: "TitilliumWeb-Light", size: 12)!], for: .normal)
+        
+        UITextField.appearance().tintColor = .white
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

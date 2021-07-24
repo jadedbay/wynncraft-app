@@ -16,11 +16,15 @@ struct PlayerView: View {
     var body: some View {
         ZStack {
             Background()
-            let url = URL(string: "https://crafatar.com/renders/body/" + playerUUID)!
+            let url = URL(string: "https://mc-heads.net/body/" + playerUUID)!
             Image(uiImage: viewModel.image)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width:50)
                         .onAppear {
                             viewModel.loadImage(url: url)
                         }
+                
         }
     }
 }

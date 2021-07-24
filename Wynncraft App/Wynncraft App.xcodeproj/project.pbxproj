@@ -26,6 +26,7 @@
 		287250D726A5C26B007BBE56 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250D626A5C26B007BBE56 /* Webservice.swift */; };
 		287250DB26A5FA89007BBE56 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250DA26A5FA89007BBE56 /* ControlView.swift */; };
 		287250E326AA4173007BBE56 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250E226AA4173007BBE56 /* ImageLoader.swift */; };
+		287250E626AA705B007BBE56 /* SkinModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287250E526AA705A007BBE56 /* SkinModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		287250D626A5C26B007BBE56 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		287250DA26A5FA89007BBE56 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		287250E226AA4173007BBE56 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		287250E526AA705A007BBE56 /* SkinModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		282D4DDC26A4B8D300B82085 /* ScreenElements */ = {
 			isa = PBXGroup;
 			children = (
+				287250E426AA7036007BBE56 /* PlayerView */,
 				282D4DDD26A4B8EB00B82085 /* Background.swift */,
 				287250C626A50732007BBE56 /* LoginArea.swift */,
 				287250CE26A5299C007BBE56 /* LoginButton.swift */,
@@ -136,6 +139,14 @@
 				287250CA26A5136B007BBE56 /* TitilliumWeb-Light.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		287250E426AA7036007BBE56 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				287250E526AA705A007BBE56 /* SkinModule.swift */,
+			);
+			path = PlayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 				282D4DD926A4AF5600B82085 /* GuildView.swift in Sources */,
 				282D4DD726A4AF3F00B82085 /* PlayerView.swift in Sources */,
 				282D4DD126A4AD9300B82085 /* GeneralView.swift in Sources */,
+				287250E626AA705B007BBE56 /* SkinModule.swift in Sources */,
 				282D4DBC26A4943400B82085 /* SceneDelegate.swift in Sources */,
 				282D4DD526A4AED300B82085 /* LeaderboardsView.swift in Sources */,
 				282D4DCF26A4AD1E00B82085 /* LoginView.swift in Sources */,

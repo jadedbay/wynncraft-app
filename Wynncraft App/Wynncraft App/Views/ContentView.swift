@@ -9,6 +9,12 @@ import SwiftUI
 
 let tabBackground = UIColor(red: 186.0/255.0, green: 170.0/255.0, blue: 128.0/255.0, alpha: 1)
 
+extension UIScreen{
+   static let screenWidth = UIScreen.main.bounds.size.width
+   static let screenHeight = UIScreen.main.bounds.size.height
+   static let screenSize = UIScreen.main.bounds.size
+}
+
 struct ContentView: View {
     
     @Environment(\.presentationMode) var presentationMode
